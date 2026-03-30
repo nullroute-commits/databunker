@@ -1,8 +1,6 @@
 module github.com/securitybunker/databunker/src
 
-go 1.24.0
-
-toolchain go1.24.4
+go 1.25.0
 
 // replace github.com/securitybunker/databunker/src/storage => ./storage
 // replace github.com/securitybunker/databunker/src/utils => ./utils
@@ -58,7 +56,7 @@ require (
 	github.com/ttacon/builder v0.0.0-20170518171403-c099f663e1c2 // indirect
 	github.com/ttacon/libphonenumber v1.2.1 // indirect
 	golang.org/x/exp v0.0.0-20250819193227-8b4c13bb791b // indirect
-	golang.org/x/image v0.30.0 // indirect
+	golang.org/x/image v0.38.0 // indirect
 	golang.org/x/mod v0.27.0 // indirect
 	golang.org/x/sys v0.35.0 // indirect
 	google.golang.org/protobuf v1.36.8 // indirect
