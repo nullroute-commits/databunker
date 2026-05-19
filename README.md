@@ -76,6 +76,10 @@ curl -s -H "X-Bunker-Token: DEMO" -X GET http://localhost:3000/v1/user/login/joh
 # Admin UI: http://localhost:3000
 ```
 
+## 🤖 Agent workflow
+
+This repository now tracks [`nullroute-commits/agency-agents`](https://github.com/nullroute-commits/agency-agents) as the upstream source of truth for reusable agent skills. See [`AGENTS.md`](AGENTS.md) for the pinned upstream commit, the repository-specific override rules, and the required audit workflow for bug discovery and sprint planning.
+
 ## 💡 What Problems Does Databunker Solve?
 
 1. **Prevents Data Breaches**
